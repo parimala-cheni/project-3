@@ -1,0 +1,259 @@
+
+.head1{
+    
+    display:inline;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 70px 0px 0px 400px; 
+    
+}
+
+.back{
+    margin-left: 550px;
+    margin-top: 30px;
+
+
+}
+.text1{
+    font-size:50px;
+    font-family: sans-serif;
+    color: rgb(53, 51, 51);
+    
+    
+}
+
+.trip1{
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    
+
+
+
+}
+.paris1{
+    color:rgb(219, 5, 5);
+    margin-left:30% ; 
+    margin-top: 15%;
+    font-size: 35px;
+    font-family:Franklin Gothic Book;
+    
+}
+
+.task1{
+    color: rgb(219, 5, 5);
+    margin-left:35% ; 
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: line-through;
+
+
+}
+
+.form1{
+    margin-top: 10%;
+    margin-left:30% ;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+input.box{
+
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+
+}
+
+.circle1{
+    
+    
+    margin-left: 320px;
+    margin-top: 70px;
+
+}  
+
+.fa-plus-circle{
+    
+    color: red;
+}
+
+@media screen and (min-width:300px) and (max-width:650px) {
+    .head1{
+        width: 100%;
+        margin: 0px 20px 20px 90px;
+        font-size:50px ;
+         position: absolute; 
+    }
+
+    .trip1{
+        margin:60px 20px 10px 40px;
+        width: 350px;
+        height:500px ;
+        border-radius: 15px;
+        box-shadow: 20px 20px 10px rgb(207, 203, 203);
+    }
+    .paris1{
+        color:rgb(219, 5, 5);
+        margin-left:20% ; 
+        margin-top: 15%;
+        font-size: 50px;
+        font-family:Franklin Gothic Book;
+        
+    }
+
+    
+    .task1{
+        color: rgb(219, 5, 5);
+        margin-left:15% ; 
+        margin-top: 10%;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-decoration: line-through;
+    
+    
+    }
+    
+    .form1{
+        margin-top: 10%;
+        margin-left:10% ;
+        font-size: 35px;
+        font-family: sans-serif;
+    
+    }
+    input.box{
+
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+    
+    .circle1{
+        
+        
+        margin-left: 280px;
+        margin-top: 140px;
+    }
+    
+    .page{
+        display: inline;
+    }
+    
+    .back{
+        /* position: absolute; */
+        margin: 80px 0px 0px 20px;
+        
+    }
+    .text1{
+        display: none;
+    }
+
+    
+}
+
+.background2{
+
+    filter: blur(8px);
+}
+.new-list{
+    border: 1px solid red;
+    height: 250px;
+    width: 500px;
+    padding-top:25px;  
+    margin:-370px 150px 150px 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+
+     position: absolute; 
+}
+.submit{
+    border:1px solid red;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    background-color: red;
+}
+.box2{
+
+    border: 1px solid red;
+    width: 300px;
+    height: 40px;
+    
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px rgb(216, 213, 213);
+
+
+}
+.head2{
+    
+    display:inline;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 70px 0px 0px 400px; 
+    
+}
+.trip2{
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(207, 203, 203);
+    
+
+
+
+}
+
+@media screen and (min-width:300px) and (max-width:650px){
+    .new-list{
+        margin: 350px 0px 0px 40px;
+        width:400px ;
+        height: 200px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 30px;
+        position: absolute;
+
+
+    }
+    .box2{
+        width:250px ;
+    }
+    .background2{
+        position: absolute;  
+    }
+    .head2{
+        width: 100%;
+        margin: 75px 20px 20px 90px;
+        font-size:50px ;
+         position: absolute; 
+    }
+    .trip2{
+        margin:80px 20px 10px 60px;
+        width: 370px;
+        height:550px ;
+        border-radius: 15px;
+        box-shadow: 20px 20px 10px rgb(207, 203, 203);
+    }
+    
+} 
